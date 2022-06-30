@@ -1,0 +1,119 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jua&family=Pacifico&display=swap');
+body {
+	background-color : #f5ebdf;
+	font-family: 'Jua', sans-serif;
+}
+h1{
+	font-family: 'Pacifico', cursive;
+	text-align: center;
+	font-size : 60px;
+	color : #917B56;
+	text-shadow: 5px 5px #f5ebdf, 8px 8px #a38b62, 11px 11px #c4a878, 14px 14px #e3c28a;
+}
+#menu{
+	width : 100%;
+	font-size : 22px;
+	}
+#login{
+	margin-left:auto; 
+    margin-right:auto;
+    margin-top:100px;
+    width : 300px;
+    border-spacing: 5px;
+	font-size : 16px;
+	color : #917B56;
+}
+#join{
+	margin-left:auto; 
+    margin-right:auto;
+    margin-top:100px;
+    width : 300px;
+    border-spacing: 10px;
+	font-size : 16px;
+}
+#photoSave{
+	margin-left:auto; 
+    margin-right:auto;
+    margin-top:50px;
+    width : 950px;
+	font-size : 16px;
+	color : #5c4e37;
+}
+#btnLogin{
+	width : 80px;
+	height : 30px;
+	font-family : 'Jua', sans-serif;
+	color : #786648;
+	background-color : #f9d9ca;
+	border : 2px solid #D18063;
+	border-radius : 5px;
+	font-size : 16px;
+}
+#btnJoin{
+	width : 80px;
+	height : 30px;
+	font-family : 'Jua', sans-serif;
+	color : #786648;
+	background-color : #f9d9ca;
+	border : 2px solid #D18063;
+	border-radius : 5px;
+	font-size : 16px;
+}
+p{
+	margin-left:auto; 
+    margin-right:auto;
+    font-size : 20px;
+    text-align:center;
+    color : #786648;
+}
+#explanation{
+	margin-top:150px;
+}
+img{
+	width : 300px;
+	height : 300px;
+}
+#photoList{
+	width : 100%; 
+	border-collapse: collapse;
+	border : 2px solid #8f4a32;
+	font-size : 20px;
+	text-align : center;
+	color : #786648;
+}
+#photoList th{
+	border-bottom: 2px solid #8f4a32;
+    border-left: 2px solid #8f4a32;
+    padding: 10px;
+}
+#photoList td{
+	border-bottom: 2px solid #8f4a32;
+    border-left: 2px solid #8f4a32;
+    padding: 10px;
+}
+#btnSave{
+	width : 80px;
+	height : 30px;
+	font-family : 'Jua', sans-serif;
+	color : #5c4e37;
+	background-color : #f9d9ca;
+	border : 2px solid #D18063;
+	border-radius : 5px;
+	font-size : 16px;
+}
+#btnDelete {
+	font-family : 'Jua', sans-serif;
+	font-size : 16px;
+	color : #5c4e37;
+	background-color : #D18063;
+	border : 2px solid #D18063;
+	border-radius : 5px;
+	
+}
+#count {
+	font-size : 25px;
+	border : 2px solid #8f4a32;
+}
